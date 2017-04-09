@@ -7,7 +7,7 @@ module.exports = {
       .waitForElementVisible('button[name=btnG]', 1000)
       .click('button[name=btnG]')
       .pause(2000)
-      .assert.containsText('#lst-ib', 'Night Watch')
+      .assert.value('#lst-ib', 'nightwatch')
       .end();
   }
 };
